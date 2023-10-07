@@ -1,0 +1,105 @@
+* {
+    color: #787978;
+}
+
+.section-padding {
+    padding: 80px 0px;
+}
+
+.section-tatile {
+    margin-bottom: 50px;
+}
+
+.section-tatile h2 span {
+    color: #2fa55e;
+}
+
+.single-pricing-box {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333 !important;
+}
+
+.single-pricing-box h3 {
+    text-transform: uppercase;
+}
+
+.pricing-icon {
+    margin-bottom: 40px;
+    font-size: 60px;
+}
+
+.pricing-lists {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.pricing-lists ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-left: 16px;
+    line-height: 26px;
+}
+
+.single-pricing-box .pricing-count {
+    text-transform: none;
+}
+
+.bordered-btn {
+    display: inline-block;
+    border: 1px solid #2fa55e;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+.pricing-lists ul li::before {
+    font-family: fontAwesome;
+    content: "\f00c";
+    color: #2fa55e;
+    padding-right: 10px;
+}
+
+.pricing-lists ul li.off::before {
+    content: "\f00d";
+    color: #eb3036;
+}
+
+.single-pricing-box:hover {
+    border-color: #2fa55e;
+    box-shadow: 0 0 50px #ccc;
+}
+
+.single-pricing-box {
+    transition: 0.2s;
+}
+
+.bordered-btn {
+    transition: 0.3s;
+}
+
+.bordered-btn:hover {
+    background-color: #2fa55e;
+    color: #fff;
+}
+
+.pricing-lists ul li {
+    transition: all 0.2s;
+}
+
+.pricing-lists ul li:hover {
+    padding-left: 5px;
+}
+
+.fa-brands {
+    transition: all .2s;
+}
+
+.single-pricing-box:hover .pricing-icon .fa-brands {
+    color: #2fa55e;
+}
